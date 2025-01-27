@@ -11,11 +11,11 @@ for son in sonlar:
 print(sonlar)
 print(kvadrat)
 
-# dostlar = []
-# print("4 ta eng yaqin do'stingiz kim?")
-# for n in range(5):
-#     dostlar.append(input(f"{n+1}-dostinizning ismini kiriting: "))
-# print(dostlar)
+dostlar = []
+print("4 ta eng yaqin do'stingiz kim?")
+for n in range(5):
+    dostlar.append(input(f"{n+1}-dostinizning ismini kiriting: "))
+print(dostlar)
 
 
 
