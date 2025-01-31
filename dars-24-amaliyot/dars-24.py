@@ -101,9 +101,9 @@ mevalar = ['olma', 'anjir', 'gilos', 'ananas', 'behi', 'kivi', 'banan', 'shaftol
 mevalar_a = list(filter(lambda meva: meva.startswith('a'), mevalar))
 print(mevalar_a)
 
-# Quyidagi dastur esa mevalar ro'yxatidan nomi 5 yoki undan kam harfdan iborat  mevalarni saralab oladi.
-mevalar2 = list(filter(lambda meva:len(meva)<=5, mevalar))
-print(mevalar2)
-
-mevalar3=list (filter(lambda meva: (meva.startswith('g') and meva.endswith('s')), mevalar))
-print(mevalar3)
+# # Quyidagi dastur esa mevalar ro'yxatidan nomi 5 yoki undan kam harfdan iborat  mevalarni saralab oladi.
+# mevalar2 = list(filter(lambda meva:len(meva)<=5, mevalar))
+# print(mevalar2)
+#
+# mevalar3=list (filter(lambda meva: (meva.startswith('g') and meva.endswith('s')), mevalar))
+# print(mevalar3)
